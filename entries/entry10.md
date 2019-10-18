@@ -1,8 +1,8 @@
-# Entry 1
+# Entry 10
 ##### X/X/XX
 
 Text
 
-[Next](entry02.md)
+[Previous](entry09.md)
 
 [Home](../README.md)
