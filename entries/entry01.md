@@ -19,7 +19,7 @@ For example,
 ---
 ## Why **_Swift_** ?
 
-Originally, I wanted to build my own AI bot because I believe [Halite](https://halite.io) was interesting for someone who enjoys math.
+Originally, I wanted to build my own AI bot because I believe [**Halite**](https://halite.io) was interesting for someone who enjoys math.
 However, I am also interested in making a game that brings joy, and Halite competition can be something I do on my own rather than
 putting it to be the focus of my project.
 
