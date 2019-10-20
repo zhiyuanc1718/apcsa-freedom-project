@@ -4,13 +4,19 @@
 
 ## Basic Background
 
-I am a student enrolled in the Advanced Placement Computer Science A (APCSA) course which focuses on Java.
-For our class final project, We are given the freedom to explore a tool and then create a project of our choice.
+This is the beginning of a year-long project called the **Freedom Project**.
+We are given complete freedom :
+- our choice of design
+- our choice of partnering
+- our choice of programming language(s)
+- our choice of application (website, app, online game etc)
+
+hence the name "Freedom Project".
 
 ---
 ## Research Tools
 
-The very first things to do for this project were to figure out **what to make**.
+The very first things to do for this project were to figure out **what to make and what tools to use**.
 For example,
 - If you want **an iOS app**, you should probably spend time looking at **Swift**.
 - If you want **android app**, you should look at **Java**.
