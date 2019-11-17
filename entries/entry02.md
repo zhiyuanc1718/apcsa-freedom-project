@@ -185,6 +185,8 @@ Terminal then prints out...
 Zhiyuans-MBP:Halite3_MacOS zhiyuan$
 ```
 
+Loading .hlt file on Halite page
+
 ![Halite Bot Battle](../halite-sample.png)
 
 ## Summary
