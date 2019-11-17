@@ -1,4 +1,4 @@
-# Entry 2
+# Entry 02
 ##### 11/15/19
 
 ## Recap : My Progress
