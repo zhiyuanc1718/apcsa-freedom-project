@@ -85,8 +85,8 @@ a java bot for it to compete against. To test the full potential of our bot agai
 their development, we have to find the source code for Halite III participants. After we download their bots, we can compete
 locally.
 
-A great source to learn `python3` is [codecademy](https://www.codecademy.com/learn/learn-python-3), although it's `PRO` only.
-`python2` is free and slightly different from `python3`. Another potential source will be
+A great source to learn **python3** is [codecademy](https://www.codecademy.com/learn/learn-python-3), although it's **PRO** only.
+**python2** is free and slightly different from **python3**. Another potential source will be
 [learnpython.org](https://www.learnpython.org/)
 
 ## Engineering Design Process
