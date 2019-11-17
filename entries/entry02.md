@@ -78,12 +78,16 @@ III winners.
 
 We want to explore Python. As a dynamic programming language, Python is great for backend web development, data analysis,
 artificial intelligence, and scientific computing. Python will help us be more efficient when dealing with variables.
-We need efficient AI bot, and we would like to spend our time on Python.
+We need efficient AI bot, and we would like to invest our time on Python.
 
 In addition to the Python bot, we need another bot for it to compete against. Since we are learning java, we should create
 a java bot for it to compete against. To test the full potential of our bot against other bots that didn’t involve us in
 their development, we have to find the source code for Halite III participants. After we download their bots, we can compete
 locally.
+
+A great source to learn `python3` is [codecademy](https://www.codecademy.com/learn/learn-python-3), although it's `PRO` only.
+`python2` is free and slightly different from `python3`. Another potential source will be
+[learnpython.org](https://www.learnpython.org/)
 
 ## Engineering Design Process
 
@@ -93,7 +97,7 @@ recourses wisely so that the team will gain more points/resources.
 
 **Research** : Going on the [Game Overview](https://2018.halite.io/learn-programming-challenge/game-overview) page, we learned
 about the basic commands for a bot to return to the game. The [Documentation](https://2018.halite.io/learn-programming-challenge/api-docs)
-page will define files and objects/functions provided in the starter kit which can be downloaded from the [Downloads](https://2018.halite.io/learn-programming-challenge/downloads) page
+page defines files and objects/functions provided in the starter kit which can be downloaded from the [Downloads](https://2018.halite.io/learn-programming-challenge/downloads) page.
 Halite also provides a block-based coding environment for anyone to test out ideas: [Blockly](https://2018.halite.io/learn-programming-challenge/blockly/)
 
 Our plans - **Brainstorm** : To create a successful bot, we need to plan out a list of actions that a bot should take when
@@ -157,7 +161,7 @@ while True:
     game.end_turn(command_queue)
 ```
 
-Running Halite in Terminal (`Python bot vs Java Bot`)
+Running Halite in Terminal `Python bot vs Java Bot`
 
 ```
 Zhiyuans-MBP:Halite3_MacOS zhiyuan$ javac MyBot.java
@@ -182,7 +186,6 @@ Terminal then prints out...
 [info] Player 1, 'MyJavaBot', was rank 1 with 74 halite
 [info] [P0] Player has log output. Writing a log at replays/errorlog-20191117-001718-0500-1573967836-32-32-0.log
 [info] [P1] Player has log output. Writing a log at replays/errorlog-20191117-001718-0500-1573967836-32-32-1.log
-Zhiyuans-MBP:Halite3_MacOS zhiyuan$
 ```
 
 Loading .hlt file on Halite page
