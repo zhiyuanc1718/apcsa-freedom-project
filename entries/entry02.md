@@ -44,7 +44,7 @@ https://opentdb.com/api.php?amount=10&token=c3ccccfd78f7c441e704dbfaef634aac663d
 
 Calling the method and getting my JSON data
 
-```
+```Swift
 let pfd = PostFOrData()
 
 // you call the method with a trailing closure
@@ -163,14 +163,14 @@ while True:
 
 Running Halite in Terminal `Python bot vs Java Bot`
 
-```
+```bash
 Zhiyuans-MBP:Halite3_MacOS zhiyuan$ javac MyBot.java
 Zhiyuans-MBP:Halite3_MacOS zhiyuan$ ./halite --replay-directory replays/ -vvv --width 32 --height 32 "python3 MyBot.py" "java MyBot"
 ```
 
 Terminal then prints out...
 
-```
+```bash
 [info] Map seed is 1573967836
 [info] [P0] Launching with command python3 MyBot.py
 [info] [P1] Launching with command java MyBot
