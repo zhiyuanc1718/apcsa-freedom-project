@@ -3,7 +3,7 @@
 
 ## Recap : My Progress
 
-Since the previous blog entry, we have been learning from the starter code to break down what certain functions and constants refer to. This is extremely important to do because making our bot will be a much easier task if we utilize the functions provided such as `naive_navigate()`` which returns a direction for us to give to our ships to navigate to a specific location.
+Since the previous blog entry, we have been learning from the starter code to break down what certain functions and constants refer to. This is extremely important to do because making our bot will be a much easier task if we utilize the functions provided such as `naive_navigate()` which returns a direction for us to give to our ships to navigate to a specific location.
 
 We have tinkered with functions like `get_surrounding_cardinals()` which returns a list of coordinates around us in 4 directions : North, South, East, West in that particular order.
 
