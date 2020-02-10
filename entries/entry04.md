@@ -9,7 +9,7 @@ Previously on the Freedom Project, we said
 Some new things that we considered :
 - `game_map.naive_navigate(position, destination)` is good but not good enough. We decided to abandon this naivgation method that was provided to us. Naive navigate only considers a move if the current target cell is not occupied. This is why it's called "naive" because when the next turn comes, the target cell's ship would have likely moved.
 - We moved on to using `GameMap._get_target_direction(position, destination)`. In short, this other method provides at most two directions to move towards our destination. For example, if we are at (0,0) and we want to move to (1,1), by calling `_get_target_direction()`, we will have two directions to decide : South and East.
-- As of right now, we are not thinking of making dropoffs, but just in case we do in the future, we have to make a new function that finds the nearest "base" for a ship to deposit. See `nearestBase(pos)` method
+- As of right now, we are not thinking of making dropoffs, but just in case we do in the future, we have to make a new function that finds the nearest "base" for a ship to deposit. See `nearestBase(pos)` method in full code
 - The one and **ONLY** way to win the game is to get the most halite within a certain number of turns (400 to 500 depending on map size). Therefore, we need all ships to hunt for the highest halite cells. Obviously, we need to consider the distance to that cell too. We made a few functions to take care of this.
 
 ## Engineering Design Process
@@ -222,19 +222,21 @@ for ship in me.get_ships():
                 else:
                     coordinates.append(ship.position)
                     command_queue.append(ship.move(Direction.Still))
+        else:
+            ### code not shown ...
     else:
-        ### code not shown
+        ### code not shown ...
 ```
 
 In our terminal we run the command : our current version is stored in `MyBotcopy.py` while `MyBot.py` is the previous bot version.
 
-```bash
+```
 Zhiyuans-MBP:Halite3_MacOS zhiyuan$ ./halite --replay-directory replays/ -vvv --width 32 --height 32 "Python3 MyBotcopy.py" "Python3 MyBot.py"
 ```
 
 The following are the outputs : note errors for [P0] which is our bot. We faced several collisions (something that we need to fix later on).
 
-```bash
+```
 [info] Map seed is 1581282445
 [info] [P0] Launching with command Python3 MyBotcopy.py
 [info] [P1] Launching with command Python3 MyBot.py
