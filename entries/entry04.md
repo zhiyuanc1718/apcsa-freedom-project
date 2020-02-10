@@ -40,7 +40,7 @@ We needed int() to make sure our numbers were easy to work with, especially hali
 
 ## Skills
 
-Some skills that I further developed were my ability to google my question online. I approached StackOverflow for simple techniques to extract values from dictionaries. I googled **how to get key from values** and clicked on some suggestions, one of which came from [a stackoverflow discussion from 8 years ago](how to get key from values). Prior to finding that, I read a solution from [geeksforgeeks](https://www.geeksforgeeks.org/python-get-key-from-value-in-dictionary/). At first, the first solution presented did not appeal to me. It turns out the second method listed there was the same as that from stackoverflow. The biggest skill is problem decomposition, as you can see from the breakdown of our goal to implementing each individual small method/function.
+Some skills that I further developed were my ability to google my question online. I approached StackOverflow for simple techniques to extract values from dictionaries. I googled **how to get key from values** and clicked on some suggestions, one of which came from [a stackoverflow discussion from 8 years ago](https://stackoverflow.com/questions/8023306/get-key-by-value-in-dictionary). Prior to finding that, I read a solution from [geeksforgeeks](https://www.geeksforgeeks.org/python-get-key-from-value-in-dictionary/). At first, the first solution presented did not appeal to me. It turns out the second method listed there was the same as that from stackoverflow. The biggest skill is problem decomposition, as you can see from the breakdown of our goal to implementing each individual small method/function.
 
 ## Bot Development
 
@@ -254,7 +254,7 @@ The following are the outputs : note errors for [P0] which is our bot. We faced 
 
 Click image for the video of that round (at 5x speed)
 
-[![IMAGE ALT TEXT HERE](../halite-v03.jpg)](../video.webm)
+[![IMAGE ALT TEXT HERE](../halite-v03.png)](../haliteV03.mp4)
 
 Stay Tuned for the next bot version !
 
