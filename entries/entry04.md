@@ -254,7 +254,7 @@ The following are the outputs : note errors for [P0] which is our bot. We faced 
 
 Click image for the video of that round (at 5x speed)
 
-[![IMAGE ALT TEXT HERE](../halite-v03.png)](../haliteV03.mp4)
+[![IMAGE ALT TEXT HERE](../halite-v03.png)](https://zhiyuanc1718.github.io/apcsa-freedom-project/video.html)
 
 Stay Tuned for the next bot version !
 
