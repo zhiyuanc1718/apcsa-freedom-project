@@ -11,11 +11,13 @@ Some new ideas that I considered :
 
 Our progress with the Freedom Project is between **creating a prototype** with Machine Learning and **testing and evaluate the prototype** (same as previous entry which is running a model against previous models, other player's bots, and fighting itself) and lastly **improve as needed** (better algorithms which I will address partially in this entry with some new methods).
 
+Here, I will discuss about a new prototype and a new way of navigation that would work ideally but not in code (some debugging needed).
+
 ## Knowledge
 
 While learning about `private` and `public` variables in java, I could see how python classes and objects are different than java objects. `private` does not exist in python and instead of making accessor methods in python, we can simply use the `.` symbol to access variables of an object such as Position.x where Position is an instance of the class with some values stored as x and y.
 
-With syntax, we apply the `new` keyword to make a new instance of the class, but in python we don't use the `new` keyword.
+With java, we apply the `new` keyword to make a new instance of the class, but in python we don't use the `new` keyword.
 
 Instead of
 ```java
